@@ -1,7 +1,5 @@
-# gas-benchmarks
-
-This repository is part of my Web3 portfolio.  
-It demonstrates skills in **Solidity development, Node operation, and Security research**.
+# Gas Benchmarks
+Foundry tests to compare gas of patterns (optimized vs unoptimized).
 
 ## Features
 - Smart contracts (Solidity)
@@ -9,10 +7,11 @@ It demonstrates skills in **Solidity development, Node operation, and Security r
 - Tests
 - Infrastructure or security focus
 
-## How to run
+## Usage
 ```bash
-npm install
-npx hardhat test
+forge init
+forge install foundry-rs/forge-std
+forge test --gas-report
 ```
 
 ## About
